@@ -1,0 +1,10 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Anaconda
+anaconda_projects/
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
