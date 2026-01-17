@@ -8,3 +8,11 @@ anaconda_projects/
 .vscode/
 .history/
 *.code-workspace
+
+# Pycharm
+.idea/
+*.iml
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
