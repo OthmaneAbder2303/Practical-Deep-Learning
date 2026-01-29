@@ -16,3 +16,5 @@ anaconda_projects/
 __pycache__/
 *.py[cod]
 *$py.class
+
+trials_diabetes_tuning/
