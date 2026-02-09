@@ -9,6 +9,9 @@ anaconda_projects/
 .history/
 *.code-workspace
 
+.DS_Store
+/.DS_Store
+
 # Pycharm
 .idea/
 *.iml
@@ -18,3 +21,6 @@ __pycache__/
 *$py.class
 
 trials_diabetes_tuning/
+
+# data
+/data
