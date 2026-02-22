@@ -24,3 +24,9 @@ trials_diabetes_tuning/
 
 # data
 /data
+
+# models
+*.keras
+*.h5
+/data/
+/datasets/
