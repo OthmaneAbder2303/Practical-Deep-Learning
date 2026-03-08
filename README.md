@@ -16,7 +16,6 @@ The goal of this repository is **learning by doing**:
 - Making mistakes and improving over time.
 - Building intuition around deep learning workflows and data pipelines.
 
----
 
 ## Datasets
 
@@ -44,6 +43,25 @@ This repository utilizes two primary datasets for computer vision tasks:
 ---
 
 > **Tip for Implementation:** Since the **UTKFace** dataset encodes labels in the filename, you will need a custom parser (e.g., using Python's `os.listdir` and `string.split('_')`) to extract the target variables. 
+
+
+### Articles & Theoretical Deep Dives
+
+#### Recurrent Neural Networks (RNNs)
+* **[Backpropagation in RNNs](https://medium.com/@amritsinghbist/understanding-backpropagation-in-recurrent-neural-networks-rnns-5977013be8a9)**: A deep dive into how gradients flow through time.
+* **[RNN Architectures & Use Cases](https://medium.com/@shrutishalom/understanding-different-types-of-rnns-architectures-use-cases-and-how-to-choose-15d425143cfd)**: A guide to choosing the right structure for sequential data.
+
+#### Convolutional Neural Networks (CNNs)
+* **[Convolutions and Backpropagation](https://medium.com/@pavisj/convolutions-and-backpropagations-46026a8f5d2c)**: Visualizing the math behind the spatial feature extraction.
+* **[Padding and Strides in CNN](https://medium.com/@minhazc.engg/padding-and-strides-in-cnn-58dc56493887)**: Understanding how these parameters affect the output feature map size.
+* **[Practical Guide to Data Augmentation](https://medium.com/@tubelwj/practical-guide-to-data-augmentation-for-cnn-model-training-5b7cc9baeed1)**: Techniques to improve model generalization (crucial for datasets like UTKFace).
+
+#### Optimization & Initialization
+* **[Types of Optimizers](https://medium.com/@sushmita2310/types-of-optimizers-in-deep-learning-a-comprehensive-guide-af258d6acf66)**: Comparison between SGD, Adam, RMSprop, and more.
+* **[Weight Initialization Techniques](https://www.geeksforgeeks.org/machine-learning/weight-initialization-techniques-for-deep-neural-networks/)**: Why Xavier and He initialization are vital for training deep architectures.
+
+#### Hardware & Productivity
+* **[How to use Kaggle GPU](https://medium.com/featurepreneur/how-to-use-kaggle-gpu-74b1e184242c)**: Maximizing free compute resources for training your models.
 
 ---
 
