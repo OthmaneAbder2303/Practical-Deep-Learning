@@ -45,7 +45,10 @@ This repository utilizes two primary datasets for computer vision tasks:
 > **Tip for Implementation:** Since the **UTKFace** dataset encodes labels in the filename, you will need a custom parser (e.g., using Python's `os.listdir` and `string.split('_')`) to extract the target variables. 
 
 
-### Articles & Theoretical Deep Dives
+### Articles, Blogs & Theoretical Deep Dives
+
+#### Long Short-Term Memory (LSTMs)
+* **[Understanding LSTMs](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)**: A visual and intuitive explanation of Long Short-Term Memory networks and how they solve the vanishing gradient problem.
 
 #### Recurrent Neural Networks (RNNs)
 * **[Backpropagation in RNNs](https://medium.com/@amritsinghbist/understanding-backpropagation-in-recurrent-neural-networks-rnns-5977013be8a9)**: A deep dive into how gradients flow through time.
