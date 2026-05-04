@@ -19,7 +19,7 @@ The goal of this repository is **learning by doing**:
 
 ## Datasets
 
-This repository utilizes two primary datasets for computer vision tasks:
+This repository utilizes primary datasets for various machine learning and deep learning tasks:
 
 ### 1. Microsoft Cats vs Dogs Dataset
 * **Source:** [Kaggle - Microsoft Cats vs Dogs Dataset](https://www.kaggle.com/datasets/shaunthesheep/microsoft-catsvsdogs-dataset)
@@ -38,12 +38,22 @@ This repository utilizes two primary datasets for computer vision tasks:
 | **Gender** | Binary | 0 (Male), 1 (Female) |
 | **Race** | Categorical | 0 (White), 1 (Black), 2 (Asian), 3 (Indian), 4 (Others) |
 
-
-
----
-
 > **Tip for Implementation:** Since the **UTKFace** dataset encodes labels in the filename, you will need a custom parser (e.g., using Python's `os.listdir` and `string.split('_')`) to extract the target variables. 
 
+### 3. Coin Image Dataset
+* **Source:** [Kaggle - Coin Image Dataset](https://kaggle.com/datasets/othmaneabderrazik/coin-image-dataset)
+* **Categories:** US Coins (Pennies, Dimes, Nickels, Quarters).
+* **Size:** 750 pictures.
+* **Task:** Object detection using YOLO.
+* **Annotation Format:** Regardless of the specific type of data, the images need to be structured and separated for annotation using Label Studio.
+
+### 4. Tatoeba French-English Corpus
+* **Source:** ManyThings.org (Tatoeba project)
+* **Files:** `fra-eng.zip` (extracts to `fra.txt`)
+* **Format:** Tab-separated text file structured as: `[English sentence] \t [French sentence] \t [Attribution]`
+* **Task:** Used for building and training a Transformer model from scratch.
+
+---
 
 ### Articles, Blogs & Theoretical Deep Dives
 
